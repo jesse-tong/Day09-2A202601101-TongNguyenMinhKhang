@@ -20,7 +20,7 @@ from src.agents.verifier_agent import VerifierAgent
 
 load_dotenv()
 
-MODEL_NAME = "gpt-4o-mini"
+MODEL_NAME = "nvidia/nemotron-nano-9b-v2:free"
 PARAM_SIZE = "<= 10B parameters"
 FRAMEWORK = "Custom Multi-Agent Framework (Python + Pydantic)"
 

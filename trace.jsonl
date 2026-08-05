@@ -1,0 +1,250 @@
+{"case_id": "EC_001", "agent": "CoordinatorAgent", "action": "receive_case", "message": "Case EC_001 received for order_id: e2a03ccf5ea816036608b2d8c3ab8e60"}
+{"case_id": "EC_001", "agent": "OrderSellerAgent", "action": "analyze_order_seller", "order_status": "delivered", "late_seller_ids": ["f7496d659ca9fdaf323c0aae84176632"]}
+{"case_id": "EC_001", "agent": "PaymentAgent", "action": "reconcile_payments", "payment_total_brl": 131.94, "is_split_payment": false}
+{"case_id": "EC_001", "agent": "PolicyAgent", "action": "evaluate_policy", "primary_issue": "late_delivery_seller", "case_status": "action_required", "recommended_refund_brl": 12.04}
+{"case_id": "EC_001", "agent": "VerifierAgent", "action": "verify_output", "is_valid": true, "errors": []}
+{"case_id": "EC_002", "agent": "CoordinatorAgent", "action": "receive_case", "message": "Case EC_002 received for order_id: 8067c5e4834f3c0a3c8a4e921d65c5b1"}
+{"case_id": "EC_002", "agent": "OrderSellerAgent", "action": "analyze_order_seller", "order_status": "delivered", "late_seller_ids": []}
+{"case_id": "EC_002", "agent": "PaymentAgent", "action": "reconcile_payments", "payment_total_brl": 180.62, "is_split_payment": false}
+{"case_id": "EC_002", "agent": "PolicyAgent", "action": "evaluate_policy", "primary_issue": "unsupported_late_claim", "case_status": "no_action", "recommended_refund_brl": 0.0}
+{"case_id": "EC_002", "agent": "VerifierAgent", "action": "verify_output", "is_valid": true, "errors": []}
+{"case_id": "EC_003", "agent": "CoordinatorAgent", "action": "receive_case", "message": "Case EC_003 received for order_id: 71303d7e93b399f5bcd537d124c0bcfa"}
+{"case_id": "EC_003", "agent": "OrderSellerAgent", "action": "analyze_order_seller", "order_status": "canceled", "late_seller_ids": []}
+{"case_id": "EC_003", "agent": "PaymentAgent", "action": "reconcile_payments", "payment_total_brl": 109.34, "is_split_payment": false}
+{"case_id": "EC_003", "agent": "PolicyAgent", "action": "evaluate_policy", "primary_issue": "canceled_order_paid", "case_status": "action_required", "recommended_refund_brl": 109.34}
+{"case_id": "EC_003", "agent": "VerifierAgent", "action": "verify_output", "is_valid": true, "errors": []}
+{"case_id": "EC_004", "agent": "CoordinatorAgent", "action": "receive_case", "message": "Case EC_004 received for order_id: fd28a6dfe413804d0b89b7c9abf5b1f3"}
+{"case_id": "EC_004", "agent": "OrderSellerAgent", "action": "analyze_order_seller", "order_status": "delivered", "late_seller_ids": []}
+{"case_id": "EC_004", "agent": "PaymentAgent", "action": "reconcile_payments", "payment_total_brl": 211.96, "is_split_payment": true}
+{"case_id": "EC_004", "agent": "PolicyAgent", "action": "evaluate_policy", "primary_issue": "valid_split_payment", "case_status": "no_action", "recommended_refund_brl": 0.0}
+{"case_id": "EC_004", "agent": "VerifierAgent", "action": "verify_output", "is_valid": true, "errors": []}
+{"case_id": "EC_005", "agent": "CoordinatorAgent", "action": "receive_case", "message": "Case EC_005 received for order_id: 9a31fd9d697e9670777501f720773fd9"}
+{"case_id": "EC_005", "agent": "OrderSellerAgent", "action": "analyze_order_seller", "order_status": "unavailable", "late_seller_ids": []}
+{"case_id": "EC_005", "agent": "PaymentAgent", "action": "reconcile_payments", "payment_total_brl": 1191.5, "is_split_payment": false}
+{"case_id": "EC_005", "agent": "PolicyAgent", "action": "evaluate_policy", "primary_issue": "unavailable_order_paid", "case_status": "action_required", "recommended_refund_brl": 1191.5}
+{"case_id": "EC_005", "agent": "VerifierAgent", "action": "verify_output", "is_valid": true, "errors": []}
+{"case_id": "EC_006", "agent": "CoordinatorAgent", "action": "receive_case", "message": "Case EC_006 received for order_id: fe51b7fac3bea42115fa1c3b8973cba7"}
+{"case_id": "EC_006", "agent": "OrderSellerAgent", "action": "analyze_order_seller", "order_status": "delivered", "late_seller_ids": []}
+{"case_id": "EC_006", "agent": "PaymentAgent", "action": "reconcile_payments", "payment_total_brl": 44.38, "is_split_payment": true}
+{"case_id": "EC_006", "agent": "PolicyAgent", "action": "evaluate_policy", "primary_issue": "valid_split_payment", "case_status": "no_action", "recommended_refund_brl": 0.0}
+{"case_id": "EC_006", "agent": "VerifierAgent", "action": "verify_output", "is_valid": true, "errors": []}
+{"case_id": "EC_007", "agent": "CoordinatorAgent", "action": "receive_case", "message": "Case EC_007 received for order_id: ded456690bcb2ffd4def86541479037f"}
+{"case_id": "EC_007", "agent": "OrderSellerAgent", "action": "analyze_order_seller", "order_status": "canceled", "late_seller_ids": []}
+{"case_id": "EC_007", "agent": "PaymentAgent", "action": "reconcile_payments", "payment_total_brl": 56.4, "is_split_payment": false}
+{"case_id": "EC_007", "agent": "PolicyAgent", "action": "evaluate_policy", "primary_issue": "canceled_order_paid", "case_status": "action_required", "recommended_refund_brl": 56.4}
+{"case_id": "EC_007", "agent": "VerifierAgent", "action": "verify_output", "is_valid": true, "errors": []}
+{"case_id": "EC_008", "agent": "CoordinatorAgent", "action": "receive_case", "message": "Case EC_008 received for order_id: 2c0032906c603dcc21cd954828fa77d0"}
+{"case_id": "EC_008", "agent": "OrderSellerAgent", "action": "analyze_order_seller", "order_status": "canceled", "late_seller_ids": ["c1ed9e3daf6154542826a6996af0fb8c"]}
+{"case_id": "EC_008", "agent": "PaymentAgent", "action": "reconcile_payments", "payment_total_brl": 250.57, "is_split_payment": false}
+{"case_id": "EC_008", "agent": "PolicyAgent", "action": "evaluate_policy", "primary_issue": "canceled_order_paid", "case_status": "action_required", "recommended_refund_brl": 250.57}
+{"case_id": "EC_008", "agent": "VerifierAgent", "action": "verify_output", "is_valid": true, "errors": []}
+{"case_id": "EC_009", "agent": "CoordinatorAgent", "action": "receive_case", "message": "Case EC_009 received for order_id: 3aaee056441dcae251f360b1c71a7279"}
+{"case_id": "EC_009", "agent": "OrderSellerAgent", "action": "analyze_order_seller", "order_status": "delivered", "late_seller_ids": []}
+{"case_id": "EC_009", "agent": "PaymentAgent", "action": "reconcile_payments", "payment_total_brl": 135.35, "is_split_payment": false}
+{"case_id": "EC_009", "agent": "PolicyAgent", "action": "evaluate_policy", "primary_issue": "late_delivery_logistics", "case_status": "action_required", "recommended_refund_brl": 12.36}
+{"case_id": "EC_009", "agent": "VerifierAgent", "action": "verify_output", "is_valid": true, "errors": []}
+{"case_id": "EC_010", "agent": "CoordinatorAgent", "action": "receive_case", "message": "Case EC_010 received for order_id: 3a119f52de09d1b2700815732def8b47"}
+{"case_id": "EC_010", "agent": "OrderSellerAgent", "action": "analyze_order_seller", "order_status": "delivered", "late_seller_ids": []}
+{"case_id": "EC_010", "agent": "PaymentAgent", "action": "reconcile_payments", "payment_total_brl": 27.77, "is_split_payment": false}
+{"case_id": "EC_010", "agent": "PolicyAgent", "action": "evaluate_policy", "primary_issue": "late_delivery_logistics", "case_status": "action_required", "recommended_refund_brl": 7.78}
+{"case_id": "EC_010", "agent": "VerifierAgent", "action": "verify_output", "is_valid": true, "errors": []}
+{"case_id": "EC_011", "agent": "CoordinatorAgent", "action": "receive_case", "message": "Case EC_011 received for order_id: 2636a02ee7de9590df86a4c24b739c49"}
+{"case_id": "EC_011", "agent": "OrderSellerAgent", "action": "analyze_order_seller", "order_status": "unavailable", "late_seller_ids": []}
+{"case_id": "EC_011", "agent": "PaymentAgent", "action": "reconcile_payments", "payment_total_brl": 142.09, "is_split_payment": false}
+{"case_id": "EC_011", "agent": "PolicyAgent", "action": "evaluate_policy", "primary_issue": "unavailable_order_paid", "case_status": "action_required", "recommended_refund_brl": 142.09}
+{"case_id": "EC_011", "agent": "VerifierAgent", "action": "verify_output", "is_valid": true, "errors": []}
+{"case_id": "EC_012", "agent": "CoordinatorAgent", "action": "receive_case", "message": "Case EC_012 received for order_id: 103de323ece563a1012b4b6adf5a81b2"}
+{"case_id": "EC_012", "agent": "OrderSellerAgent", "action": "analyze_order_seller", "order_status": "delivered", "late_seller_ids": []}
+{"case_id": "EC_012", "agent": "PaymentAgent", "action": "reconcile_payments", "payment_total_brl": 114.67, "is_split_payment": false}
+{"case_id": "EC_012", "agent": "PolicyAgent", "action": "evaluate_policy", "primary_issue": "late_delivery_logistics", "case_status": "action_required", "recommended_refund_brl": 9.67}
+{"case_id": "EC_012", "agent": "VerifierAgent", "action": "verify_output", "is_valid": true, "errors": []}
+{"case_id": "EC_013", "agent": "CoordinatorAgent", "action": "receive_case", "message": "Case EC_013 received for order_id: ee234bfd26ca588915483995d811c1d0"}
+{"case_id": "EC_013", "agent": "OrderSellerAgent", "action": "analyze_order_seller", "order_status": "unavailable", "late_seller_ids": []}
+{"case_id": "EC_013", "agent": "PaymentAgent", "action": "reconcile_payments", "payment_total_brl": 619.86, "is_split_payment": false}
+{"case_id": "EC_013", "agent": "PolicyAgent", "action": "evaluate_policy", "primary_issue": "unavailable_order_paid", "case_status": "action_required", "recommended_refund_brl": 619.86}
+{"case_id": "EC_013", "agent": "VerifierAgent", "action": "verify_output", "is_valid": true, "errors": []}
+{"case_id": "EC_014", "agent": "CoordinatorAgent", "action": "receive_case", "message": "Case EC_014 received for order_id: b93b079468bdf6a20fd54cf45d1e03b6"}
+{"case_id": "EC_014", "agent": "OrderSellerAgent", "action": "analyze_order_seller", "order_status": "delivered", "late_seller_ids": []}
+{"case_id": "EC_014", "agent": "PaymentAgent", "action": "reconcile_payments", "payment_total_brl": 72.14, "is_split_payment": true}
+{"case_id": "EC_014", "agent": "PolicyAgent", "action": "evaluate_policy", "primary_issue": "valid_split_payment", "case_status": "no_action", "recommended_refund_brl": 0.0}
+{"case_id": "EC_014", "agent": "VerifierAgent", "action": "verify_output", "is_valid": true, "errors": []}
+{"case_id": "EC_015", "agent": "CoordinatorAgent", "action": "receive_case", "message": "Case EC_015 received for order_id: c504f1f5fd54cc8398d57dc0da49de01"}
+{"case_id": "EC_015", "agent": "OrderSellerAgent", "action": "analyze_order_seller", "order_status": "canceled", "late_seller_ids": []}
+{"case_id": "EC_015", "agent": "PaymentAgent", "action": "reconcile_payments", "payment_total_brl": 69.49, "is_split_payment": false}
+{"case_id": "EC_015", "agent": "PolicyAgent", "action": "evaluate_policy", "primary_issue": "canceled_order_paid", "case_status": "action_required", "recommended_refund_brl": 69.49}
+{"case_id": "EC_015", "agent": "VerifierAgent", "action": "verify_output", "is_valid": true, "errors": []}
+{"case_id": "EC_016", "agent": "CoordinatorAgent", "action": "receive_case", "message": "Case EC_016 received for order_id: a88edef387e2a7e457695664bf0ddfc0"}
+{"case_id": "EC_016", "agent": "OrderSellerAgent", "action": "analyze_order_seller", "order_status": "delivered", "late_seller_ids": []}
+{"case_id": "EC_016", "agent": "PaymentAgent", "action": "reconcile_payments", "payment_total_brl": 52.52, "is_split_payment": false}
+{"case_id": "EC_016", "agent": "PolicyAgent", "action": "evaluate_policy", "primary_issue": "late_delivery_logistics", "case_status": "action_required", "recommended_refund_brl": 14.52}
+{"case_id": "EC_016", "agent": "VerifierAgent", "action": "verify_output", "is_valid": true, "errors": []}
+{"case_id": "EC_017", "agent": "CoordinatorAgent", "action": "receive_case", "message": "Case EC_017 received for order_id: dd6ee4d96f0f3cf1432c3b82818e0387"}
+{"case_id": "EC_017", "agent": "OrderSellerAgent", "action": "analyze_order_seller", "order_status": "delivered", "late_seller_ids": []}
+{"case_id": "EC_017", "agent": "PaymentAgent", "action": "reconcile_payments", "payment_total_brl": 72.76, "is_split_payment": false}
+{"case_id": "EC_017", "agent": "PolicyAgent", "action": "evaluate_policy", "primary_issue": "late_delivery_logistics", "case_status": "action_required", "recommended_refund_brl": 12.76}
+{"case_id": "EC_017", "agent": "VerifierAgent", "action": "verify_output", "is_valid": true, "errors": []}
+{"case_id": "EC_018", "agent": "CoordinatorAgent", "action": "receive_case", "message": "Case EC_018 received for order_id: 97c8513f2504aa8ec05534307a703dea"}
+{"case_id": "EC_018", "agent": "OrderSellerAgent", "action": "analyze_order_seller", "order_status": "delivered", "late_seller_ids": []}
+{"case_id": "EC_018", "agent": "PaymentAgent", "action": "reconcile_payments", "payment_total_brl": 27.68, "is_split_payment": true}
+{"case_id": "EC_018", "agent": "PolicyAgent", "action": "evaluate_policy", "primary_issue": "valid_split_payment", "case_status": "no_action", "recommended_refund_brl": 0.0}
+{"case_id": "EC_018", "agent": "VerifierAgent", "action": "verify_output", "is_valid": true, "errors": []}
+{"case_id": "EC_019", "agent": "CoordinatorAgent", "action": "receive_case", "message": "Case EC_019 received for order_id: 31f935babbc97f5990e0ffd128e19541"}
+{"case_id": "EC_019", "agent": "OrderSellerAgent", "action": "analyze_order_seller", "order_status": "unavailable", "late_seller_ids": []}
+{"case_id": "EC_019", "agent": "PaymentAgent", "action": "reconcile_payments", "payment_total_brl": 74.7, "is_split_payment": false}
+{"case_id": "EC_019", "agent": "PolicyAgent", "action": "evaluate_policy", "primary_issue": "unavailable_order_paid", "case_status": "action_required", "recommended_refund_brl": 74.7}
+{"case_id": "EC_019", "agent": "VerifierAgent", "action": "verify_output", "is_valid": true, "errors": []}
+{"case_id": "EC_020", "agent": "CoordinatorAgent", "action": "receive_case", "message": "Case EC_020 received for order_id: 96087ef44ca9abdbc4c372a3dd3c859f"}
+{"case_id": "EC_020", "agent": "OrderSellerAgent", "action": "analyze_order_seller", "order_status": "delivered", "late_seller_ids": []}
+{"case_id": "EC_020", "agent": "PaymentAgent", "action": "reconcile_payments", "payment_total_brl": 269.08, "is_split_payment": true}
+{"case_id": "EC_020", "agent": "PolicyAgent", "action": "evaluate_policy", "primary_issue": "valid_split_payment", "case_status": "no_action", "recommended_refund_brl": 0.0}
+{"case_id": "EC_020", "agent": "VerifierAgent", "action": "verify_output", "is_valid": true, "errors": []}
+{"case_id": "EC_021", "agent": "CoordinatorAgent", "action": "receive_case", "message": "Case EC_021 received for order_id: 13d341318c77969f10d77e1382957542"}
+{"case_id": "EC_021", "agent": "OrderSellerAgent", "action": "analyze_order_seller", "order_status": "canceled", "late_seller_ids": []}
+{"case_id": "EC_021", "agent": "PaymentAgent", "action": "reconcile_payments", "payment_total_brl": 38.86, "is_split_payment": false}
+{"case_id": "EC_021", "agent": "PolicyAgent", "action": "evaluate_policy", "primary_issue": "canceled_order_paid", "case_status": "action_required", "recommended_refund_brl": 38.86}
+{"case_id": "EC_021", "agent": "VerifierAgent", "action": "verify_output", "is_valid": true, "errors": []}
+{"case_id": "EC_022", "agent": "CoordinatorAgent", "action": "receive_case", "message": "Case EC_022 received for order_id: 1f7565efbb90c33b80f467d6a75332c5"}
+{"case_id": "EC_022", "agent": "OrderSellerAgent", "action": "analyze_order_seller", "order_status": "delivered", "late_seller_ids": ["02d35243ea2e497335cd0f076b45675d"]}
+{"case_id": "EC_022", "agent": "PaymentAgent", "action": "reconcile_payments", "payment_total_brl": 268.98, "is_split_payment": false}
+{"case_id": "EC_022", "agent": "PolicyAgent", "action": "evaluate_policy", "primary_issue": "late_delivery_seller", "case_status": "action_required", "recommended_refund_brl": 19.98}
+{"case_id": "EC_022", "agent": "VerifierAgent", "action": "verify_output", "is_valid": true, "errors": []}
+{"case_id": "EC_023", "agent": "CoordinatorAgent", "action": "receive_case", "message": "Case EC_023 received for order_id: 5fba7c57daf631028d2a584c52799e24"}
+{"case_id": "EC_023", "agent": "OrderSellerAgent", "action": "analyze_order_seller", "order_status": "delivered", "late_seller_ids": []}
+{"case_id": "EC_023", "agent": "PaymentAgent", "action": "reconcile_payments", "payment_total_brl": 73.34, "is_split_payment": false}
+{"case_id": "EC_023", "agent": "PolicyAgent", "action": "evaluate_policy", "primary_issue": "unsupported_late_claim", "case_status": "no_action", "recommended_refund_brl": 0.0}
+{"case_id": "EC_023", "agent": "VerifierAgent", "action": "verify_output", "is_valid": true, "errors": []}
+{"case_id": "EC_024", "agent": "CoordinatorAgent", "action": "receive_case", "message": "Case EC_024 received for order_id: d8716a985f69a46751cc046b0fea0d98"}
+{"case_id": "EC_024", "agent": "OrderSellerAgent", "action": "analyze_order_seller", "order_status": "unavailable", "late_seller_ids": []}
+{"case_id": "EC_024", "agent": "PaymentAgent", "action": "reconcile_payments", "payment_total_brl": 87.08, "is_split_payment": false}
+{"case_id": "EC_024", "agent": "PolicyAgent", "action": "evaluate_policy", "primary_issue": "unavailable_order_paid", "case_status": "action_required", "recommended_refund_brl": 87.08}
+{"case_id": "EC_024", "agent": "VerifierAgent", "action": "verify_output", "is_valid": true, "errors": []}
+{"case_id": "EC_025", "agent": "CoordinatorAgent", "action": "receive_case", "message": "Case EC_025 received for order_id: e06ff711ddcab05c3651a9b1bb003950"}
+{"case_id": "EC_025", "agent": "OrderSellerAgent", "action": "analyze_order_seller", "order_status": "delivered", "late_seller_ids": []}
+{"case_id": "EC_025", "agent": "PaymentAgent", "action": "reconcile_payments", "payment_total_brl": 184.32, "is_split_payment": true}
+{"case_id": "EC_025", "agent": "PolicyAgent", "action": "evaluate_policy", "primary_issue": "valid_split_payment", "case_status": "no_action", "recommended_refund_brl": 0.0}
+{"case_id": "EC_025", "agent": "VerifierAgent", "action": "verify_output", "is_valid": true, "errors": []}
+{"case_id": "EC_026", "agent": "CoordinatorAgent", "action": "receive_case", "message": "Case EC_026 received for order_id: 966f96af9d189dc428ff04ebbca821b8"}
+{"case_id": "EC_026", "agent": "OrderSellerAgent", "action": "analyze_order_seller", "order_status": "canceled", "late_seller_ids": []}
+{"case_id": "EC_026", "agent": "PaymentAgent", "action": "reconcile_payments", "payment_total_brl": 142.34, "is_split_payment": false}
+{"case_id": "EC_026", "agent": "PolicyAgent", "action": "evaluate_policy", "primary_issue": "canceled_order_paid", "case_status": "action_required", "recommended_refund_brl": 142.34}
+{"case_id": "EC_026", "agent": "VerifierAgent", "action": "verify_output", "is_valid": true, "errors": []}
+{"case_id": "EC_027", "agent": "CoordinatorAgent", "action": "receive_case", "message": "Case EC_027 received for order_id: 2f346d92b11fcc7c342b3392b174cf3b"}
+{"case_id": "EC_027", "agent": "OrderSellerAgent", "action": "analyze_order_seller", "order_status": "unavailable", "late_seller_ids": []}
+{"case_id": "EC_027", "agent": "PaymentAgent", "action": "reconcile_payments", "payment_total_brl": 74.7, "is_split_payment": false}
+{"case_id": "EC_027", "agent": "PolicyAgent", "action": "evaluate_policy", "primary_issue": "unavailable_order_paid", "case_status": "action_required", "recommended_refund_brl": 74.7}
+{"case_id": "EC_027", "agent": "VerifierAgent", "action": "verify_output", "is_valid": true, "errors": []}
+{"case_id": "EC_028", "agent": "CoordinatorAgent", "action": "receive_case", "message": "Case EC_028 received for order_id: 80f0181edc2f4a5bd3384a3c39a83cee"}
+{"case_id": "EC_028", "agent": "OrderSellerAgent", "action": "analyze_order_seller", "order_status": "unavailable", "late_seller_ids": []}
+{"case_id": "EC_028", "agent": "PaymentAgent", "action": "reconcile_payments", "payment_total_brl": 61.19, "is_split_payment": false}
+{"case_id": "EC_028", "agent": "PolicyAgent", "action": "evaluate_policy", "primary_issue": "unavailable_order_paid", "case_status": "action_required", "recommended_refund_brl": 61.19}
+{"case_id": "EC_028", "agent": "VerifierAgent", "action": "verify_output", "is_valid": true, "errors": []}
+{"case_id": "EC_029", "agent": "CoordinatorAgent", "action": "receive_case", "message": "Case EC_029 received for order_id: 5c932e0a181410b67c77daaed30991af"}
+{"case_id": "EC_029", "agent": "OrderSellerAgent", "action": "analyze_order_seller", "order_status": "delivered", "late_seller_ids": ["88460e8ebdecbfecb5f9601833981930"]}
+{"case_id": "EC_029", "agent": "PaymentAgent", "action": "reconcile_payments", "payment_total_brl": 492.21, "is_split_payment": false}
+{"case_id": "EC_029", "agent": "PolicyAgent", "action": "evaluate_policy", "primary_issue": "late_delivery_seller", "case_status": "action_required", "recommended_refund_brl": 42.51}
+{"case_id": "EC_029", "agent": "VerifierAgent", "action": "verify_output", "is_valid": true, "errors": []}
+{"case_id": "EC_030", "agent": "CoordinatorAgent", "action": "receive_case", "message": "Case EC_030 received for order_id: 405be8487a7fde1db0bc31ad6b08050a"}
+{"case_id": "EC_030", "agent": "OrderSellerAgent", "action": "analyze_order_seller", "order_status": "delivered", "late_seller_ids": []}
+{"case_id": "EC_030", "agent": "PaymentAgent", "action": "reconcile_payments", "payment_total_brl": 25.84, "is_split_payment": true}
+{"case_id": "EC_030", "agent": "PolicyAgent", "action": "evaluate_policy", "primary_issue": "valid_split_payment", "case_status": "no_action", "recommended_refund_brl": 0.0}
+{"case_id": "EC_030", "agent": "VerifierAgent", "action": "verify_output", "is_valid": true, "errors": []}
+{"case_id": "EC_031", "agent": "CoordinatorAgent", "action": "receive_case", "message": "Case EC_031 received for order_id: 4274ff4a5df607e75b32b80e2f8eda3f"}
+{"case_id": "EC_031", "agent": "OrderSellerAgent", "action": "analyze_order_seller", "order_status": "delivered", "late_seller_ids": []}
+{"case_id": "EC_031", "agent": "PaymentAgent", "action": "reconcile_payments", "payment_total_brl": 89.44, "is_split_payment": false}
+{"case_id": "EC_031", "agent": "PolicyAgent", "action": "evaluate_policy", "primary_issue": "late_delivery_logistics", "case_status": "action_required", "recommended_refund_brl": 7.44}
+{"case_id": "EC_031", "agent": "VerifierAgent", "action": "verify_output", "is_valid": true, "errors": []}
+{"case_id": "EC_032", "agent": "CoordinatorAgent", "action": "receive_case", "message": "Case EC_032 received for order_id: c4dad201936ed30eef3c94fafa59ed6e"}
+{"case_id": "EC_032", "agent": "OrderSellerAgent", "action": "analyze_order_seller", "order_status": "delivered", "late_seller_ids": []}
+{"case_id": "EC_032", "agent": "PaymentAgent", "action": "reconcile_payments", "payment_total_brl": 267.66, "is_split_payment": false}
+{"case_id": "EC_032", "agent": "PolicyAgent", "action": "evaluate_policy", "primary_issue": "unsupported_late_claim", "case_status": "no_action", "recommended_refund_brl": 0.0}
+{"case_id": "EC_032", "agent": "VerifierAgent", "action": "verify_output", "is_valid": true, "errors": []}
+{"case_id": "EC_033", "agent": "CoordinatorAgent", "action": "receive_case", "message": "Case EC_033 received for order_id: a5c8f3a11dcb9bd9b0acdfb8101dfdc8"}
+{"case_id": "EC_033", "agent": "OrderSellerAgent", "action": "analyze_order_seller", "order_status": "delivered", "late_seller_ids": ["1025f0e2d44d7041d6cf58b6550e0bfa"]}
+{"case_id": "EC_033", "agent": "PaymentAgent", "action": "reconcile_payments", "payment_total_brl": 138.72, "is_split_payment": false}
+{"case_id": "EC_033", "agent": "PolicyAgent", "action": "evaluate_policy", "primary_issue": "late_delivery_seller", "case_status": "action_required", "recommended_refund_brl": 18.72}
+{"case_id": "EC_033", "agent": "VerifierAgent", "action": "verify_output", "is_valid": true, "errors": []}
+{"case_id": "EC_034", "agent": "CoordinatorAgent", "action": "receive_case", "message": "Case EC_034 received for order_id: 973acef56bf70feefa8264d4e9f300fc"}
+{"case_id": "EC_034", "agent": "OrderSellerAgent", "action": "analyze_order_seller", "order_status": "delivered", "late_seller_ids": ["66922902710d126a0e7d26b0e3805106"]}
+{"case_id": "EC_034", "agent": "PaymentAgent", "action": "reconcile_payments", "payment_total_brl": 146.43, "is_split_payment": false}
+{"case_id": "EC_034", "agent": "PolicyAgent", "action": "evaluate_policy", "primary_issue": "late_delivery_seller", "case_status": "action_required", "recommended_refund_brl": 36.43}
+{"case_id": "EC_034", "agent": "VerifierAgent", "action": "verify_output", "is_valid": true, "errors": []}
+{"case_id": "EC_035", "agent": "CoordinatorAgent", "action": "receive_case", "message": "Case EC_035 received for order_id: 2478ddd1d1395639b71cf0d498d8dbf6"}
+{"case_id": "EC_035", "agent": "OrderSellerAgent", "action": "analyze_order_seller", "order_status": "delivered", "late_seller_ids": []}
+{"case_id": "EC_035", "agent": "PaymentAgent", "action": "reconcile_payments", "payment_total_brl": 41.85, "is_split_payment": false}
+{"case_id": "EC_035", "agent": "PolicyAgent", "action": "evaluate_policy", "primary_issue": "unsupported_late_claim", "case_status": "no_action", "recommended_refund_brl": 0.0}
+{"case_id": "EC_035", "agent": "VerifierAgent", "action": "verify_output", "is_valid": true, "errors": []}
+{"case_id": "EC_036", "agent": "CoordinatorAgent", "action": "receive_case", "message": "Case EC_036 received for order_id: c609f82bcf7a90292a5940205ebd7e93"}
+{"case_id": "EC_036", "agent": "OrderSellerAgent", "action": "analyze_order_seller", "order_status": "unavailable", "late_seller_ids": []}
+{"case_id": "EC_036", "agent": "PaymentAgent", "action": "reconcile_payments", "payment_total_brl": 117.78, "is_split_payment": false}
+{"case_id": "EC_036", "agent": "PolicyAgent", "action": "evaluate_policy", "primary_issue": "unavailable_order_paid", "case_status": "action_required", "recommended_refund_brl": 117.78}
+{"case_id": "EC_036", "agent": "VerifierAgent", "action": "verify_output", "is_valid": true, "errors": []}
+{"case_id": "EC_037", "agent": "CoordinatorAgent", "action": "receive_case", "message": "Case EC_037 received for order_id: b90e46cdc30adec2f0fa041984341170"}
+{"case_id": "EC_037", "agent": "OrderSellerAgent", "action": "analyze_order_seller", "order_status": "delivered", "late_seller_ids": ["1ca7077d890b907f89be8c954a02686a"]}
+{"case_id": "EC_037", "agent": "PaymentAgent", "action": "reconcile_payments", "payment_total_brl": 163.79, "is_split_payment": false}
+{"case_id": "EC_037", "agent": "PolicyAgent", "action": "evaluate_policy", "primary_issue": "late_delivery_seller", "case_status": "action_required", "recommended_refund_brl": 14.79}
+{"case_id": "EC_037", "agent": "VerifierAgent", "action": "verify_output", "is_valid": true, "errors": []}
+{"case_id": "EC_038", "agent": "CoordinatorAgent", "action": "receive_case", "message": "Case EC_038 received for order_id: 6b27933c6a46e3d66203137ad1fdb678"}
+{"case_id": "EC_038", "agent": "OrderSellerAgent", "action": "analyze_order_seller", "order_status": "delivered", "late_seller_ids": []}
+{"case_id": "EC_038", "agent": "PaymentAgent", "action": "reconcile_payments", "payment_total_brl": 205.26, "is_split_payment": true}
+{"case_id": "EC_038", "agent": "PolicyAgent", "action": "evaluate_policy", "primary_issue": "valid_split_payment", "case_status": "no_action", "recommended_refund_brl": 0.0}
+{"case_id": "EC_038", "agent": "VerifierAgent", "action": "verify_output", "is_valid": true, "errors": []}
+{"case_id": "EC_039", "agent": "CoordinatorAgent", "action": "receive_case", "message": "Case EC_039 received for order_id: 44a03ff139461361ec4cce7949663c2f"}
+{"case_id": "EC_039", "agent": "OrderSellerAgent", "action": "analyze_order_seller", "order_status": "delivered", "late_seller_ids": []}
+{"case_id": "EC_039", "agent": "PaymentAgent", "action": "reconcile_payments", "payment_total_brl": 89.19, "is_split_payment": false}
+{"case_id": "EC_039", "agent": "PolicyAgent", "action": "evaluate_policy", "primary_issue": "unsupported_late_claim", "case_status": "no_action", "recommended_refund_brl": 0.0}
+{"case_id": "EC_039", "agent": "VerifierAgent", "action": "verify_output", "is_valid": true, "errors": []}
+{"case_id": "EC_040", "agent": "CoordinatorAgent", "action": "receive_case", "message": "Case EC_040 received for order_id: 11bc240af3d9e1f77218715480a65b77"}
+{"case_id": "EC_040", "agent": "OrderSellerAgent", "action": "analyze_order_seller", "order_status": "delivered", "late_seller_ids": []}
+{"case_id": "EC_040", "agent": "PaymentAgent", "action": "reconcile_payments", "payment_total_brl": 257.93, "is_split_payment": false}
+{"case_id": "EC_040", "agent": "PolicyAgent", "action": "evaluate_policy", "primary_issue": "unsupported_late_claim", "case_status": "no_action", "recommended_refund_brl": 0.0}
+{"case_id": "EC_040", "agent": "VerifierAgent", "action": "verify_output", "is_valid": true, "errors": []}
+{"case_id": "EC_041", "agent": "CoordinatorAgent", "action": "receive_case", "message": "Case EC_041 received for order_id: 64a8b3b4c19751b51d211deb32fdc67b"}
+{"case_id": "EC_041", "agent": "OrderSellerAgent", "action": "analyze_order_seller", "order_status": "canceled", "late_seller_ids": []}
+{"case_id": "EC_041", "agent": "PaymentAgent", "action": "reconcile_payments", "payment_total_brl": 53.19, "is_split_payment": false}
+{"case_id": "EC_041", "agent": "PolicyAgent", "action": "evaluate_policy", "primary_issue": "canceled_order_paid", "case_status": "action_required", "recommended_refund_brl": 53.19}
+{"case_id": "EC_041", "agent": "VerifierAgent", "action": "verify_output", "is_valid": true, "errors": []}
+{"case_id": "EC_042", "agent": "CoordinatorAgent", "action": "receive_case", "message": "Case EC_042 received for order_id: 8a5fc33c79bf3f4d9bbcc3dceb6b67c4"}
+{"case_id": "EC_042", "agent": "OrderSellerAgent", "action": "analyze_order_seller", "order_status": "delivered", "late_seller_ids": []}
+{"case_id": "EC_042", "agent": "PaymentAgent", "action": "reconcile_payments", "payment_total_brl": 269.73, "is_split_payment": false}
+{"case_id": "EC_042", "agent": "PolicyAgent", "action": "evaluate_policy", "primary_issue": "unsupported_late_claim", "case_status": "no_action", "recommended_refund_brl": 0.0}
+{"case_id": "EC_042", "agent": "VerifierAgent", "action": "verify_output", "is_valid": true, "errors": []}
+{"case_id": "EC_043", "agent": "CoordinatorAgent", "action": "receive_case", "message": "Case EC_043 received for order_id: 3ef6bcdda6193f8657168ba7e8b3e948"}
+{"case_id": "EC_043", "agent": "OrderSellerAgent", "action": "analyze_order_seller", "order_status": "delivered", "late_seller_ids": ["46dc3b2cc0980fb8ec44634e21d2718e"]}
+{"case_id": "EC_043", "agent": "PaymentAgent", "action": "reconcile_payments", "payment_total_brl": 217.96, "is_split_payment": false}
+{"case_id": "EC_043", "agent": "PolicyAgent", "action": "evaluate_policy", "primary_issue": "late_delivery_seller", "case_status": "action_required", "recommended_refund_brl": 17.97}
+{"case_id": "EC_043", "agent": "VerifierAgent", "action": "verify_output", "is_valid": true, "errors": []}
+{"case_id": "EC_044", "agent": "CoordinatorAgent", "action": "receive_case", "message": "Case EC_044 received for order_id: d671370d11048a2dab56335d3d91823e"}
+{"case_id": "EC_044", "agent": "OrderSellerAgent", "action": "analyze_order_seller", "order_status": "delivered", "late_seller_ids": ["4a3ca9315b744ce9f8e9374361493884"]}
+{"case_id": "EC_044", "agent": "PaymentAgent", "action": "reconcile_payments", "payment_total_brl": 52.1, "is_split_payment": false}
+{"case_id": "EC_044", "agent": "PolicyAgent", "action": "evaluate_policy", "primary_issue": "late_delivery_seller", "case_status": "action_required", "recommended_refund_brl": 15.1}
+{"case_id": "EC_044", "agent": "VerifierAgent", "action": "verify_output", "is_valid": true, "errors": []}
+{"case_id": "EC_045", "agent": "CoordinatorAgent", "action": "receive_case", "message": "Case EC_045 received for order_id: d67b79fea59821fda4d363d337a56c3a"}
+{"case_id": "EC_045", "agent": "OrderSellerAgent", "action": "analyze_order_seller", "order_status": "canceled", "late_seller_ids": []}
+{"case_id": "EC_045", "agent": "PaymentAgent", "action": "reconcile_payments", "payment_total_brl": 69.07, "is_split_payment": false}
+{"case_id": "EC_045", "agent": "PolicyAgent", "action": "evaluate_policy", "primary_issue": "canceled_order_paid", "case_status": "action_required", "recommended_refund_brl": 69.07}
+{"case_id": "EC_045", "agent": "VerifierAgent", "action": "verify_output", "is_valid": true, "errors": []}
+{"case_id": "EC_046", "agent": "CoordinatorAgent", "action": "receive_case", "message": "Case EC_046 received for order_id: 2208f3a59d7067fe62c900692f5fdcaf"}
+{"case_id": "EC_046", "agent": "OrderSellerAgent", "action": "analyze_order_seller", "order_status": "delivered", "late_seller_ids": []}
+{"case_id": "EC_046", "agent": "PaymentAgent", "action": "reconcile_payments", "payment_total_brl": 126.01, "is_split_payment": true}
+{"case_id": "EC_046", "agent": "PolicyAgent", "action": "evaluate_policy", "primary_issue": "valid_split_payment", "case_status": "no_action", "recommended_refund_brl": 0.0}
+{"case_id": "EC_046", "agent": "VerifierAgent", "action": "verify_output", "is_valid": true, "errors": []}
+{"case_id": "EC_047", "agent": "CoordinatorAgent", "action": "receive_case", "message": "Case EC_047 received for order_id: b04477ada8d2ad7fa9d95358baaa785d"}
+{"case_id": "EC_047", "agent": "OrderSellerAgent", "action": "analyze_order_seller", "order_status": "delivered", "late_seller_ids": []}
+{"case_id": "EC_047", "agent": "PaymentAgent", "action": "reconcile_payments", "payment_total_brl": 42.8, "is_split_payment": false}
+{"case_id": "EC_047", "agent": "PolicyAgent", "action": "evaluate_policy", "primary_issue": "unsupported_late_claim", "case_status": "no_action", "recommended_refund_brl": 0.0}
+{"case_id": "EC_047", "agent": "VerifierAgent", "action": "verify_output", "is_valid": true, "errors": []}
+{"case_id": "EC_048", "agent": "CoordinatorAgent", "action": "receive_case", "message": "Case EC_048 received for order_id: adc253f1977c81c2c29dc7b9dd23d538"}
+{"case_id": "EC_048", "agent": "OrderSellerAgent", "action": "analyze_order_seller", "order_status": "delivered", "late_seller_ids": []}
+{"case_id": "EC_048", "agent": "PaymentAgent", "action": "reconcile_payments", "payment_total_brl": 61.4, "is_split_payment": false}
+{"case_id": "EC_048", "agent": "PolicyAgent", "action": "evaluate_policy", "primary_issue": "unsupported_late_claim", "case_status": "no_action", "recommended_refund_brl": 0.0}
+{"case_id": "EC_048", "agent": "VerifierAgent", "action": "verify_output", "is_valid": true, "errors": []}
+{"case_id": "EC_049", "agent": "CoordinatorAgent", "action": "receive_case", "message": "Case EC_049 received for order_id: 5b9e9502eca103a28ea22a94c65e3950"}
+{"case_id": "EC_049", "agent": "OrderSellerAgent", "action": "analyze_order_seller", "order_status": "delivered", "late_seller_ids": []}
+{"case_id": "EC_049", "agent": "PaymentAgent", "action": "reconcile_payments", "payment_total_brl": 45.3, "is_split_payment": false}
+{"case_id": "EC_049", "agent": "PolicyAgent", "action": "evaluate_policy", "primary_issue": "late_delivery_logistics", "case_status": "action_required", "recommended_refund_brl": 15.31}
+{"case_id": "EC_049", "agent": "VerifierAgent", "action": "verify_output", "is_valid": true, "errors": []}
+{"case_id": "EC_050", "agent": "CoordinatorAgent", "action": "receive_case", "message": "Case EC_050 received for order_id: af0bbb47f125381ce9f3597dc70ef07b"}
+{"case_id": "EC_050", "agent": "OrderSellerAgent", "action": "analyze_order_seller", "order_status": "delivered", "late_seller_ids": []}
+{"case_id": "EC_050", "agent": "PaymentAgent", "action": "reconcile_payments", "payment_total_brl": 23.6, "is_split_payment": false}
+{"case_id": "EC_050", "agent": "PolicyAgent", "action": "evaluate_policy", "primary_issue": "late_delivery_logistics", "case_status": "action_required", "recommended_refund_brl": 14.1}
+{"case_id": "EC_050", "agent": "VerifierAgent", "action": "verify_output", "is_valid": true, "errors": []}
